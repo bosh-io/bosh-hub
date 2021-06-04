@@ -48,7 +48,7 @@ type StemcellSource struct {
 	SHA1   string `json:"sha1,omitempty"`
 	SHA256 string `json:"sha256,omitempty"`
 
-	UpdatedAt string `json:"-"`
+	UpdatedAt string `json:"updated_at"`
 }
 
 type stemcellAPIRecord struct {
